@@ -1,5 +1,5 @@
 # Overview
-This service holds implementation of order matching a FIFO order matching system which says *The first order in the order-book at a price level is the first order matched. All orders at the same price level are filled according to time priority." The exchange works like a market where lower selling prices and higher buying prices get priority.*
+This service holds implementation of a FIFO order matching system which says *The first order in the order-book at a price level is the first order matched. All orders at the same price level are filled according to time priority." The exchange works like a market where lower selling prices and higher buying prices get priority.*
 
 *A trade is executed when a buy price is greater than or equal to a sell price. The trade is recorded at the price of the sell order regardless of the price of the buy order.*
 
